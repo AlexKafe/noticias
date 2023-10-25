@@ -1,2 +1,41 @@
 @charset "UTF-8";
 
+/*versao media query*/
+@media screen and (min-width: 993px) {
+    header {
+        height: 500px;
+    }
+    .logo {
+        flex: 1 1 250px;
+        height: 200px;
+    }
+    .txt p {
+        margin-right: 150px;
+    }
+    header p {
+        font-size: 35px;
+    }
+    .p {
+        font-size: 25px;
+        text-justify: ;
+    }
+    .gilsonix-ft {
+        height: 200px;
+        width: 200px;
+    }
+    .alexkafe-ft {
+        height: 200px;
+        width: 200px;
+    }
+    .alvoro-ft {
+        height: 200px;
+        width: 200px;
+    }
+    .karlin-ft {
+        height: 200px;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+}

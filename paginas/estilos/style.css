@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /*versao mobile first*/
+/*pags*/
 
 * { 
     font-family: Arial, Helvetica, sans-serif;
@@ -27,77 +28,9 @@ body {
     background-attachment: fixed;
                
 }
-s /*paletas de cores*/ {
-    color: #0E1621;
-    color: #242F3D;
-    color: #2B5378;
-    color: #4082BC;
-    color: #57A9F3;
-    
-}
-.overlay {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    max-width: 400px;
-    width: 100%;
-    padding: 30px;
-    border-radius: 10px;
-}
-.overlay .msg,
-.msg .icone,
-.icone .otoicone {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.overlay .msg {
-    flex-direction: column;
-}
-.msg .icone {
-  height: 115px;
-  width: 115px;
-  border-radius: 50%;
-  background-image: linear-gradient(to top, var(--cor-fundo1), var(--cor-titulo));
-}
-.icone .otoicone {
-    height: 100px;
-    width: 100px;
-    background: #fff;
-    border-radius: inherit;
-}
-.icone .otoicone i {
-  background-image: linear-gradient(to top, var(--cor-fundo1), var(--cor-titulo));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 50px;
-}
-.msg h2 {
-    margin-top: 35px;
-  font-size: 32px;
-}
-.msg p {
-    font-size: 19px;
-  text-align: center;
-  margin-top: 20px;
-}
-.msg .close-button {
-  position: relative;
-  height: 100%;
-  width: 100%;
-  background-color: var(--cor-titulo);
-  font-size: 20px;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-}
 header,nav, main, aside, footer {
    display: flex; 
 }
-
 header {          
     flex: 1 1 100vw;
     height: 300px;
@@ -116,15 +49,6 @@ header {
     width: 100px;
     height: 120px;
 }
-.banne {
-    flex: 1 1 300px;
-    
-    background-image: url(../imagens/banner-Front.jpg);
-    background-size:cover;
-    background-position: left center;
-    background-repeat: no-repeat;
-    height: 180px;
-}
 .txt{
     display: flex;       
     flex: 1 1 100vw; 
@@ -132,7 +56,6 @@ header {
     justify-content: space-between;
     flex-direction: column;
     color: white;
-    
 }
 header p {
     font-size: 25px;
@@ -140,10 +63,7 @@ header p {
     padding: 10px;
     color: white;
     font-weight: bold;
-
 }
-
-
 nav {
     position: relative;
     flex: 1 1 100vw;
@@ -273,14 +193,11 @@ main {
     display: flex;
     flex: 20 1 500px;
     flex-wrap: wrap;
-    overflow: auto;
-    margin: 15px;
-    
-    
+    overflow: auto;   
 }
 section {
     width: 90vw;
-    height: 600px;
+    height: 1400px;
     margin: 15px;
     border-radius: 10px;
     background-color: var(--cor-section);
@@ -291,10 +208,9 @@ section h1 {
     font-weight: bold;
     background-image: linear-gradient(to right,var(--cor-titulo), transparent);
     padding: 5px;
-    border-radius: 10px 0px 0px 0px;
-    
+    border-radius: 10px 0px 0px 0px;    
 }
-section > h2 {
+section h2 {
     color: black;
     margin: 10px;  
     
@@ -318,6 +234,9 @@ section p {
 }
 .img:hover {
     transform: scale(1.03);
+}
+.dfpom {
+    color: var(--cor-titulo);
 }
 aside {
     flex: 1 1 200px;
