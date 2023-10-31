@@ -109,7 +109,7 @@ header {
 }
 .logo {
     flex: 1 1 200px;
-    background-image: url(../imagens/logo-Front.jpg);
+    background-image: url(../imagens/logo-front.jpg);
     justify-content: space-between;
     background-size: cover;
     background-position: left top;
